@@ -1,3 +1,3 @@
 # UIModalPresentationStyleDemo
-<img src = "https://github.com/kylomooa/imageSource/blob/master/WechatIMG1.jpeg?width=50&height=100">
+<img style = "width=50;height=100;" src = "https://github.com/kylomooa/imageSource/blob/master/WechatIMG1.jpeg">
 present样式Demo
