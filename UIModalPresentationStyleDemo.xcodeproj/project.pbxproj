@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2BB1E52447F75200D81013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB1E42447F75200D81013 /* AppDelegate.m */; };
+		CF2BB1EB2447F75200D81013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB1EA2447F75200D81013 /* ViewController.m */; };
+		CF2BB1F02447F75500D81013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB1EF2447F75500D81013 /* Assets.xcassets */; };
+		CF2BB1F32447F75600D81013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB1F12447F75600D81013 /* LaunchScreen.storyboard */; };
+		CF2BB1F62447F75600D81013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB1F52447F75600D81013 /* main.m */; };
+		CF2BB207244804AA00D81013 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB206244804AA00D81013 /* BaseViewController.m */; };
+		CF2BB20C2448086400D81013 /* UIModalPresentationFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB20B2448086400D81013 /* UIModalPresentationFullScreenViewController.m */; };
+		CF2BB20F2448093700D81013 /* UIModalPresentationPageSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB20E2448093700D81013 /* UIModalPresentationPageSheetViewController.m */; };
+		CF2BB21224480CE400D81013 /* UIModalPresentationFormSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB21124480CE400D81013 /* UIModalPresentationFormSheetViewController.m */; };
+		CF2BB21524480D0100D81013 /* UIModalPresentationCurrentContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB21424480D0100D81013 /* UIModalPresentationCurrentContextViewController.m */; };
+		CF2BB21824480D1C00D81013 /* UIModalPresentationCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB21724480D1C00D81013 /* UIModalPresentationCustomViewController.m */; };
+		CF2BB21B24480D3100D81013 /* UIModalPresentationOverFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB21A24480D3100D81013 /* UIModalPresentationOverFullScreenViewController.m */; };
+		CF2BB21E24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB21D24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.m */; };
+		CF2BB22124480D5F00D81013 /* UIModalPresentationPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB22024480D5F00D81013 /* UIModalPresentationPopoverViewController.m */; };
+		CF2BB22424480D7600D81013 /* UIModalPresentationNoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB22324480D7600D81013 /* UIModalPresentationNoneViewController.m */; };
+		CF2BB2272448283000D81013 /* UICustomViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB2262448283000D81013 /* UICustomViewControllerAnimatedTransitioning.m */; };
+		CF2BB2292448389200D81013 /* brief.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB2282448389200D81013 /* brief.jpg */; };
+		CFBDCA682451903400FC72CF /* UIModalPresentationCustomImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDCA672451903300FC72CF /* UIModalPresentationCustomImageBrowserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF2BB1E02447F75200D81013 /* UIModalPresentationStyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIModalPresentationStyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2BB1E32447F75200D81013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF2BB1E42447F75200D81013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF2BB1E92447F75200D81013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF2BB1EA2447F75200D81013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF2BB1EF2447F75500D81013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2BB1F22447F75600D81013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2BB1F42447F75600D81013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2BB1F52447F75600D81013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2BB205244804AA00D81013 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CF2BB206244804AA00D81013 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CF2BB20A2448086400D81013 /* UIModalPresentationFullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationFullScreenViewController.h; sourceTree = "<group>"; };
+		CF2BB20B2448086400D81013 /* UIModalPresentationFullScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationFullScreenViewController.m; sourceTree = "<group>"; };
+		CF2BB20D2448093700D81013 /* UIModalPresentationPageSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationPageSheetViewController.h; sourceTree = "<group>"; };
+		CF2BB20E2448093700D81013 /* UIModalPresentationPageSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationPageSheetViewController.m; sourceTree = "<group>"; };
+		CF2BB21024480CE400D81013 /* UIModalPresentationFormSheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationFormSheetViewController.h; sourceTree = "<group>"; };
+		CF2BB21124480CE400D81013 /* UIModalPresentationFormSheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationFormSheetViewController.m; sourceTree = "<group>"; };
+		CF2BB21324480D0100D81013 /* UIModalPresentationCurrentContextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationCurrentContextViewController.h; sourceTree = "<group>"; };
+		CF2BB21424480D0100D81013 /* UIModalPresentationCurrentContextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationCurrentContextViewController.m; sourceTree = "<group>"; };
+		CF2BB21624480D1C00D81013 /* UIModalPresentationCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationCustomViewController.h; sourceTree = "<group>"; };
+		CF2BB21724480D1C00D81013 /* UIModalPresentationCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationCustomViewController.m; sourceTree = "<group>"; };
+		CF2BB21924480D3100D81013 /* UIModalPresentationOverFullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationOverFullScreenViewController.h; sourceTree = "<group>"; };
+		CF2BB21A24480D3100D81013 /* UIModalPresentationOverFullScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationOverFullScreenViewController.m; sourceTree = "<group>"; };
+		CF2BB21C24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationOverCurrentContextViewController.h; sourceTree = "<group>"; };
+		CF2BB21D24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationOverCurrentContextViewController.m; sourceTree = "<group>"; };
+		CF2BB21F24480D5F00D81013 /* UIModalPresentationPopoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationPopoverViewController.h; sourceTree = "<group>"; };
+		CF2BB22024480D5F00D81013 /* UIModalPresentationPopoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationPopoverViewController.m; sourceTree = "<group>"; };
+		CF2BB22224480D7600D81013 /* UIModalPresentationNoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationNoneViewController.h; sourceTree = "<group>"; };
+		CF2BB22324480D7600D81013 /* UIModalPresentationNoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationNoneViewController.m; sourceTree = "<group>"; };
+		CF2BB2252448283000D81013 /* UICustomViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICustomViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		CF2BB2262448283000D81013 /* UICustomViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICustomViewControllerAnimatedTransitioning.m; sourceTree = "<group>"; };
+		CF2BB2282448389200D81013 /* brief.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brief.jpg; sourceTree = "<group>"; };
+		CFBDCA662451903300FC72CF /* UIModalPresentationCustomImageBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIModalPresentationCustomImageBrowserViewController.h; sourceTree = "<group>"; };
+		CFBDCA672451903300FC72CF /* UIModalPresentationCustomImageBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIModalPresentationCustomImageBrowserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2BB1DD2447F75200D81013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5E53D370CF3BF5398800A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF2BB1D72447F75200D81013 = {
+			isa = PBXGroup;
+			children = (
+				CF2BB1E22447F75200D81013 /* UIModalPresentationStyleDemo */,
+				CF2BB1E12447F75200D81013 /* Products */,
+				9E5E53D370CF3BF5398800A2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2BB1E12447F75200D81013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BB1E02447F75200D81013 /* UIModalPresentationStyleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2BB1E22447F75200D81013 /* UIModalPresentationStyleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BB209244804CC00D81013 /* Base */,
+				CF2BB208244804C100D81013 /* Example */,
+				CF2BB1E32447F75200D81013 /* AppDelegate.h */,
+				CF2BB1E42447F75200D81013 /* AppDelegate.m */,
+				CF2BB2282448389200D81013 /* brief.jpg */,
+				CF2BB1E92447F75200D81013 /* ViewController.h */,
+				CF2BB1EA2447F75200D81013 /* ViewController.m */,
+				CF2BB1EF2447F75500D81013 /* Assets.xcassets */,
+				CF2BB1F12447F75600D81013 /* LaunchScreen.storyboard */,
+				CF2BB1F42447F75600D81013 /* Info.plist */,
+				CF2BB1F52447F75600D81013 /* main.m */,
+			);
+			path = UIModalPresentationStyleDemo;
+			sourceTree = "<group>";
+		};
+		CF2BB208244804C100D81013 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BB20A2448086400D81013 /* UIModalPresentationFullScreenViewController.h */,
+				CF2BB20B2448086400D81013 /* UIModalPresentationFullScreenViewController.m */,
+				CF2BB20D2448093700D81013 /* UIModalPresentationPageSheetViewController.h */,
+				CF2BB20E2448093700D81013 /* UIModalPresentationPageSheetViewController.m */,
+				CF2BB21024480CE400D81013 /* UIModalPresentationFormSheetViewController.h */,
+				CF2BB21124480CE400D81013 /* UIModalPresentationFormSheetViewController.m */,
+				CF2BB21324480D0100D81013 /* UIModalPresentationCurrentContextViewController.h */,
+				CF2BB21424480D0100D81013 /* UIModalPresentationCurrentContextViewController.m */,
+				CF2BB21624480D1C00D81013 /* UIModalPresentationCustomViewController.h */,
+				CF2BB21724480D1C00D81013 /* UIModalPresentationCustomViewController.m */,
+				CF2BB21924480D3100D81013 /* UIModalPresentationOverFullScreenViewController.h */,
+				CF2BB21A24480D3100D81013 /* UIModalPresentationOverFullScreenViewController.m */,
+				CF2BB21C24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.h */,
+				CF2BB21D24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.m */,
+				CF2BB21F24480D5F00D81013 /* UIModalPresentationPopoverViewController.h */,
+				CF2BB22024480D5F00D81013 /* UIModalPresentationPopoverViewController.m */,
+				CF2BB22224480D7600D81013 /* UIModalPresentationNoneViewController.h */,
+				CF2BB22324480D7600D81013 /* UIModalPresentationNoneViewController.m */,
+				CF2BB2252448283000D81013 /* UICustomViewControllerAnimatedTransitioning.h */,
+				CF2BB2262448283000D81013 /* UICustomViewControllerAnimatedTransitioning.m */,
+				CFBDCA662451903300FC72CF /* UIModalPresentationCustomImageBrowserViewController.h */,
+				CFBDCA672451903300FC72CF /* UIModalPresentationCustomImageBrowserViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CF2BB209244804CC00D81013 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF2BB205244804AA00D81013 /* BaseViewController.h */,
+				CF2BB206244804AA00D81013 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2BB1DF2447F75200D81013 /* UIModalPresentationStyleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2BB1F92447F75600D81013 /* Build configuration list for PBXNativeTarget "UIModalPresentationStyleDemo" */;
+			buildPhases = (
+				CF2BB1DC2447F75200D81013 /* Sources */,
+				CF2BB1DD2447F75200D81013 /* Frameworks */,
+				CF2BB1DE2447F75200D81013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIModalPresentationStyleDemo;
+			productName = UIModalPresentationStyleDemo;
+			productReference = CF2BB1E02447F75200D81013 /* UIModalPresentationStyleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2BB1D82447F75200D81013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = maoqiang;
+				TargetAttributes = {
+					CF2BB1DF2447F75200D81013 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = CF2BB1DB2447F75200D81013 /* Build configuration list for PBXProject "UIModalPresentationStyleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2BB1D72447F75200D81013;
+			productRefGroup = CF2BB1E12447F75200D81013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2BB1DF2447F75200D81013 /* UIModalPresentationStyleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2BB1DE2447F75200D81013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2BB1F32447F75600D81013 /* LaunchScreen.storyboard in Resources */,
+				CF2BB1F02447F75500D81013 /* Assets.xcassets in Resources */,
+				CF2BB2292448389200D81013 /* brief.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2BB1DC2447F75200D81013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2BB2272448283000D81013 /* UICustomViewControllerAnimatedTransitioning.m in Sources */,
+				CF2BB22424480D7600D81013 /* UIModalPresentationNoneViewController.m in Sources */,
+				CF2BB1EB2447F75200D81013 /* ViewController.m in Sources */,
+				CF2BB20C2448086400D81013 /* UIModalPresentationFullScreenViewController.m in Sources */,
+				CF2BB21224480CE400D81013 /* UIModalPresentationFormSheetViewController.m in Sources */,
+				CF2BB207244804AA00D81013 /* BaseViewController.m in Sources */,
+				CFBDCA682451903400FC72CF /* UIModalPresentationCustomImageBrowserViewController.m in Sources */,
+				CF2BB1E52447F75200D81013 /* AppDelegate.m in Sources */,
+				CF2BB1F62447F75600D81013 /* main.m in Sources */,
+				CF2BB21524480D0100D81013 /* UIModalPresentationCurrentContextViewController.m in Sources */,
+				CF2BB20F2448093700D81013 /* UIModalPresentationPageSheetViewController.m in Sources */,
+				CF2BB22124480D5F00D81013 /* UIModalPresentationPopoverViewController.m in Sources */,
+				CF2BB21824480D1C00D81013 /* UIModalPresentationCustomViewController.m in Sources */,
+				CF2BB21E24480D4800D81013 /* UIModalPresentationOverCurrentContextViewController.m in Sources */,
+				CF2BB21B24480D3100D81013 /* UIModalPresentationOverFullScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF2BB1F12447F75600D81013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2BB1F22447F75600D81013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2BB1F72447F75600D81013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2BB1F82447F75600D81013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2BB1FA2447F75600D81013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTTFCYCQG4;
+				INFOPLIST_FILE = UIModalPresentationStyleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylo.mooa-gmail.com.UIModalPresentationStyleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2BB1FB2447F75600D81013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTTFCYCQG4;
+				INFOPLIST_FILE = UIModalPresentationStyleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kylo.mooa-gmail.com.UIModalPresentationStyleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2BB1DB2447F75200D81013 /* Build configuration list for PBXProject "UIModalPresentationStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2BB1F72447F75600D81013 /* Debug */,
+				CF2BB1F82447F75600D81013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2BB1F92447F75600D81013 /* Build configuration list for PBXNativeTarget "UIModalPresentationStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2BB1FA2447F75600D81013 /* Debug */,
+				CF2BB1FB2447F75600D81013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2BB1D82447F75200D81013 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MYBaseModule (0.4.0)
+
+DEPENDENCIES:
+  - MYBaseModule
+
+SPEC REPOS:
+  https://github.com/kylomooa/mySpecs.git:
+    - MYBaseModule
+
+SPEC CHECKSUMS:
+  MYBaseModule: 7cfdd5817a9f040c262179a21eab176a343f4e62
+
+PODFILE CHECKSUM: da7e5ea866b6ebb169410e6613d1f583369805d7
+
+COCOAPODS: 1.9.1
